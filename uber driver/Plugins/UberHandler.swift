@@ -77,6 +77,7 @@ class UberHandler{
                 if let lat = data[Constants.LATITUDE] as? Double{
                     if let long = data[Constants.LONGTITUDE] as? Double {
                         self.delegate?.updateRidersLocation(lat: lat, long: long)
+                        print("run here")
                     }
                 }
             }

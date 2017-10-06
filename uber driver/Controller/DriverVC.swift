@@ -46,17 +46,19 @@ class DriverVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, 
             userLocation = CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
             let region = MKCoordinateRegion(center: location, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
             myMap.setRegion(region, animated: true)
+            print("riderLocation is \(String(describing: riderLocation))")
             
+            myMap.removeAnnotations(myMap.annotations)
             if riderLocation != nil{
                 if acceptedUber{
                     let riderAnnotation = MKPointAnnotation()
                     riderAnnotation.coordinate = riderLocation!
                     riderAnnotation.title = "Riders Location"
+//                    riderAnnotation.superclass?.greenPinColor()
                     myMap.addAnnotation(riderAnnotation)
+                    print("show annotaion")
                 }
             }
-            
-            myMap.removeAnnotations(myMap.annotations)
             
             let annotation = MKPointAnnotation()
             annotation.title = "Driver Location"
@@ -68,7 +70,7 @@ class DriverVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, 
         UberHandler.Instance.updateDriverLocation(lat: userLocation!.latitude, long: userLocation!.longitude)
     }
     func updateRidersLocation(lat: Double, long: Double) {
-        userLocation = CLLocationCoordinate2D(latitude: lat, longitude: long)
+        riderLocation = CLLocationCoordinate2D(latitude: lat, longitude: long)
     }
     
     func acceptUber(lat: Double, long: Double) {
