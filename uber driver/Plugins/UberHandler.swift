@@ -24,6 +24,7 @@ class UberHandler{
     var rider = ""
     var driver = ""
     var driver_id = ""
+    var riderLocation = [Double]()
     
     static var Instance: UberHandler{
         return _instance
@@ -37,6 +38,9 @@ class UberHandler{
                 if let latitude = data[Constants.LATITUDE] as? Double {
                     if let longitude = data[Constants.LONGTITUDE] as? Double{
                         self.delegate?.acceptUber(lat: latitude, long: longitude)
+                        self.riderLocation.append(longitude)
+                        self.riderLocation.append(latitude)
+                        print("riderLocation = \(self.riderLocation)")
                     }
                 }
                 if let name = data[Constants.NAME]{
@@ -59,6 +63,7 @@ class UberHandler{
                 if let name = data[Constants.NAME] as? String{
                     if name == self.driver{
                         self.driver_id = snapshot.key
+                        self.delegate?.updateRidersLocation(lat: self.riderLocation.popLast()!, long: self.riderLocation.popLast()!)
                     }
                 }
             }

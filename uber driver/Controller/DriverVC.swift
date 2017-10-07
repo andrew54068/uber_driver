@@ -54,7 +54,6 @@ class DriverVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, 
                     let riderAnnotation = MKPointAnnotation()
                     riderAnnotation.coordinate = riderLocation!
                     riderAnnotation.title = "Riders Location"
-//                    riderAnnotation.superclass?.greenPinColor()
                     myMap.addAnnotation(riderAnnotation)
                     print("show annotaion")
                 }
@@ -71,6 +70,7 @@ class DriverVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, 
     }
     func updateRidersLocation(lat: Double, long: Double) {
         riderLocation = CLLocationCoordinate2D(latitude: lat, longitude: long)
+        print("riderLocation here is \(riderLocation!)")
     }
     
     func acceptUber(lat: Double, long: Double) {
@@ -102,10 +102,12 @@ class DriverVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, 
                 self.acceptUber.isHidden = true
                 uberRequest(title: "Uber Canceled", message: "The Rider  Has Canceled The Uber", requestAlive: false)
                 UberHandler.Instance.cancelUberForDriver()
+                
                 timer.invalidate()
             }else{
                 self.acceptedUber = false
                 self.acceptUber.isHidden = true
+                
                 timer.invalidate()
             }
         }
@@ -114,8 +116,6 @@ class DriverVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, 
         if acceptedUber {
             acceptedUber = false
             acceptUber.isHidden = true
-//            UberHandler.Instance.cancelUberForDriver()
-            
         }
     }
     
@@ -134,10 +134,9 @@ class DriverVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, 
             let accept = UIAlertAction(title: "accept", style: .default, handler: {(alertAction: UIAlertAction) in
                 self.acceptedUber = true
                 self.acceptUber.isHidden = false
-                
+                self.driverCanceledUber = false
                 self.timer = Timer.scheduledTimer(timeInterval: TimeInterval(10), target: self, selector: #selector(DriverVC.updateDriversLocation), userInfo: nil, repeats: true)
-                UberHandler.Instance.uberAccepted(lat: Double(self.userLocation!.latitude), long: self.userLocation!.longitude)
-                
+                UberHandler.Instance.uberAccepted(lat: Double(self.userLocation!.latitude), long: Double(self.userLocation!.longitude))
             })
             let cancel = UIAlertAction(title: "cancel", style: .default, handler: nil)
             alert.addAction(accept)
@@ -148,6 +147,4 @@ class DriverVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, 
         }
         present(alert, animated: true, completion: nil)
     }
-    
-
 }
