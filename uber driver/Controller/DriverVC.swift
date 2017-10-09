@@ -77,6 +77,7 @@ class DriverVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, 
         if !acceptedUber{
             uberRequest(title: "Uber Request", message: "You have a uber request in this location: \(lat), \(long)", requestAlive: true)
         }
+        driverCanceledUber = false
     }
     
     @IBAction func logout(_ sender: Any) {
@@ -102,15 +103,24 @@ class DriverVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, 
                 self.acceptUber.isHidden = true
                 uberRequest(title: "Uber Canceled", message: "The Rider  Has Canceled The Uber", requestAlive: false)
                 UberHandler.Instance.cancelUberForDriver()
-                
+                print("111111")
                 timer.invalidate()
-            }else{
+            }else{//uber acepted and canceled
                 self.acceptedUber = false
                 self.acceptUber.isHidden = true
-                
+                print("222222")
                 timer.invalidate()
             }
+        }else {
+            self.acceptUber.isHidden = true
+            if !driverCanceledUber{
+                uberRequest(title: "Uber Canceled", message: "The Rider  Has Canceled The Uber", requestAlive: false)
+                print("3333333")
+            }
+            
+            print("44444444")
         }
+        
     }
     func uberCanceled() {
         if acceptedUber {
@@ -130,21 +140,44 @@ class DriverVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, 
     
     private func uberRequest(title: String, message: String, requestAlive: Bool){
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        if requestAlive{
-            let accept = UIAlertAction(title: "accept", style: .default, handler: {(alertAction: UIAlertAction) in
-                self.acceptedUber = true
-                self.acceptUber.isHidden = false
-                self.driverCanceledUber = false
-                self.timer = Timer.scheduledTimer(timeInterval: TimeInterval(10), target: self, selector: #selector(DriverVC.updateDriversLocation), userInfo: nil, repeats: true)
-                UberHandler.Instance.uberAccepted(lat: Double(self.userLocation!.latitude), long: Double(self.userLocation!.longitude))
-            })
-            let cancel = UIAlertAction(title: "cancel", style: .default, handler: nil)
-            alert.addAction(accept)
-            alert.addAction(cancel)
-        }else{
-            let ok = UIAlertAction(title: "ok", style: .default, handler: nil)
-            alert.addAction(ok)
+        if self.presentedViewController == nil{
+            if requestAlive{
+                let accept = UIAlertAction(title: "accept", style: .default, handler: {(alertAction: UIAlertAction) in
+                    self.acceptedUber = true
+                    self.acceptUber.isHidden = false
+                    self.driverCanceledUber = false
+                    self.timer = Timer.scheduledTimer(timeInterval: TimeInterval(10), target: self, selector: #selector(DriverVC.updateDriversLocation), userInfo: nil, repeats: true)
+                    UberHandler.Instance.uberAccepted(lat: Double(self.userLocation!.latitude), long: Double(self.userLocation!.longitude))
+                })
+                let cancel = UIAlertAction(title: "cancel", style: .default, handler:{(alertAction: UIAlertAction) in
+                    self.driverCanceledUber = true
+                })
+                alert.addAction(accept)
+                alert.addAction(cancel)
+            }else{
+                let ok = UIAlertAction(title: "ok", style: .default, handler: nil)
+                alert.addAction(ok)
+            }
+            present(alert, animated: true, completion: nil)
+        }else {
+            dismiss(animated: true, completion: nil)
+            if requestAlive{
+                let accept = UIAlertAction(title: "accept", style: .default, handler: {(alertAction: UIAlertAction) in
+                    self.acceptedUber = true
+                    self.acceptUber.isHidden = false
+                    self.driverCanceledUber = false
+                    self.timer = Timer.scheduledTimer(timeInterval: TimeInterval(10), target: self, selector: #selector(DriverVC.updateDriversLocation), userInfo: nil, repeats: true)
+                    UberHandler.Instance.uberAccepted(lat: Double(self.userLocation!.latitude), long: Double(self.userLocation!.longitude))
+                })
+                let cancel = UIAlertAction(title: "cancel", style: .default, handler: nil)
+                alert.addAction(accept)
+                alert.addAction(cancel)
+            }else{
+                let ok = UIAlertAction(title: "ok", style: .default, handler: nil)
+                alert.addAction(ok)
+            }
+            present(alert, animated: true, completion: nil)
         }
-        present(alert, animated: true, completion: nil)
+        
     }
 }
