@@ -1,0 +1,656 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SignInVC"
+provides-nominal:
+- "11uber_driver8SignInVCC"
+provides-member:
+- ["11uber_driver8SignInVCC", ""]
+provides-dynamic-lookup:
+- "EmailTouched"
+- "PasswordTouched"
+- "didReceiveMemoryWarning"
+- "emailTextField"
+- "logIn"
+- "passwordTextField"
+- "signUp"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- "AssignmentPrecedence"
+- !private "AuthProvider"
+- !private "BooleanLiteralType"
+- "SignInVC"
+- !private "String"
+- "StringLiteralType"
+- !private "UIAlertAction"
+- !private "UIAlertController"
+- "UITextField"
+- "UIViewController"
+- !private "UberHandler"
+- !private "print"
+depends-member:
+- !private ["11uber_driver12AuthProviderC", "Instance"]
+- !private ["11uber_driver12AuthProviderC", "login"]
+- !private ["11uber_driver12AuthProviderC", "signUp"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "AuthProvider"]
+- !private ["s7CVarArgP", "DRIVER_SEGUE"]
+- !private ["s7CVarArgP", "UIAlertAction"]
+- !private ["s7CVarArgP", "UIAlertController"]
+- !private ["s7CVarArgP", "UberHandler"]
+- !private ["s7CVarArgP", "addAction"]
+- !private ["s7CVarArgP", "alerTheUser"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "emailTextField"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "passwordTextField"]
+- !private ["s7CVarArgP", "performSegue"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AuthProvider"]
+- !private ["s28CustomDebugStringConvertibleP", "DRIVER_SEGUE"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
+- !private ["s28CustomDebugStringConvertibleP", "UberHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "addAction"]
+- !private ["s28CustomDebugStringConvertibleP", "alerTheUser"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "emailTextField"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "passwordTextField"]
+- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "AuthProvider"]
+- !private ["s23CustomStringConvertibleP", "DRIVER_SEGUE"]
+- !private ["s23CustomStringConvertibleP", "UIAlertAction"]
+- !private ["s23CustomStringConvertibleP", "UIAlertController"]
+- !private ["s23CustomStringConvertibleP", "UberHandler"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addAction"]
+- !private ["s23CustomStringConvertibleP", "alerTheUser"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "emailTextField"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "passwordTextField"]
+- !private ["s23CustomStringConvertibleP", "performSegue"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "AuthProvider"]
+- !private ["s9EquatableP", "DRIVER_SEGUE"]
+- !private ["s9EquatableP", "UIAlertAction"]
+- !private ["s9EquatableP", "UIAlertController"]
+- !private ["s9EquatableP", "UberHandler"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addAction"]
+- !private ["s9EquatableP", "alerTheUser"]
+- !private ["s9EquatableP", "alert"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "emailTextField"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "passwordTextField"]
+- !private ["s9EquatableP", "performSegue"]
+- !private ["s9EquatableP", "present"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "AuthProvider"]
+- !private ["s8HashableP", "DRIVER_SEGUE"]
+- !private ["s8HashableP", "UIAlertAction"]
+- !private ["s8HashableP", "UIAlertController"]
+- !private ["s8HashableP", "UberHandler"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addAction"]
+- !private ["s8HashableP", "alerTheUser"]
+- !private ["s8HashableP", "alert"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "emailTextField"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "passwordTextField"]
+- !private ["s8HashableP", "performSegue"]
+- !private ["s8HashableP", "present"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "AuthProvider"]
+- !private ["So8NSCodingP", "DRIVER_SEGUE"]
+- !private ["So8NSCodingP", "UIAlertAction"]
+- !private ["So8NSCodingP", "UIAlertController"]
+- !private ["So8NSCodingP", "UberHandler"]
+- !private ["So8NSCodingP", "addAction"]
+- !private ["So8NSCodingP", "alerTheUser"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "emailTextField"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "passwordTextField"]
+- !private ["So8NSCodingP", "performSegue"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "AuthProvider"]
+- !private ["So26NSExtensionRequestHandlingP", "DRIVER_SEGUE"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertAction"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertController"]
+- !private ["So26NSExtensionRequestHandlingP", "UberHandler"]
+- !private ["So26NSExtensionRequestHandlingP", "addAction"]
+- !private ["So26NSExtensionRequestHandlingP", "alerTheUser"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "emailTextField"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "passwordTextField"]
+- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "AuthProvider"]
+- ["So8NSObjectC", "DRIVER_SEGUE"]
+- ["So8NSObjectC", "EmailTouched"]
+- ["So8NSObjectC", "PasswordTouched"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIAlertAction"]
+- !private ["So8NSObjectC", "UIAlertController"]
+- ["So8NSObjectC", "UITextField"]
+- !private ["So8NSObjectC", "UberHandler"]
+- !private ["So8NSObjectC", "addAction"]
+- ["So8NSObjectC", "alerTheUser"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "emailTextField"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "logIn"]
+- ["So8NSObjectC", "passwordTextField"]
+- !private ["So8NSObjectC", "performSegue"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "signUp"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "AuthProvider"]
+- !private ["So16NSObjectProtocolP", "DRIVER_SEGUE"]
+- !private ["So16NSObjectProtocolP", "UIAlertAction"]
+- !private ["So16NSObjectProtocolP", "UIAlertController"]
+- !private ["So16NSObjectProtocolP", "UberHandler"]
+- !private ["So16NSObjectProtocolP", "addAction"]
+- !private ["So16NSObjectProtocolP", "alerTheUser"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "emailTextField"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "passwordTextField"]
+- !private ["So16NSObjectProtocolP", "performSegue"]
+- !private ["So16NSObjectProtocolP", "present"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "alert"]
+- !private ["s16RawRepresentableP", "default"]
+- ["s8SequenceP", "init"]
+- !private ["11uber_driver8SignInVCC", "AuthProvider"]
+- !private ["11uber_driver8SignInVCC", "DRIVER_SEGUE"]
+- ["11uber_driver8SignInVCC", "EmailTouched"]
+- ["11uber_driver8SignInVCC", "PasswordTouched"]
+- !private ["11uber_driver8SignInVCC", "String"]
+- !private ["11uber_driver8SignInVCC", "UIAlertAction"]
+- !private ["11uber_driver8SignInVCC", "UIAlertController"]
+- ["11uber_driver8SignInVCC", "UITextField"]
+- !private ["11uber_driver8SignInVCC", "UberHandler"]
+- !private ["11uber_driver8SignInVCC", "alerTheUser"]
+- ["11uber_driver8SignInVCC", "deinit"]
+- ["11uber_driver8SignInVCC", "didReceiveMemoryWarning"]
+- ["11uber_driver8SignInVCC", "emailTextField"]
+- ["11uber_driver8SignInVCC", "init"]
+- ["11uber_driver8SignInVCC", "logIn"]
+- ["11uber_driver8SignInVCC", "passwordTextField"]
+- !private ["11uber_driver8SignInVCC", "performSegue"]
+- !private ["11uber_driver8SignInVCC", "present"]
+- !private ["11uber_driver8SignInVCC", "print"]
+- ["11uber_driver8SignInVCC", "signUp"]
+- ["11uber_driver8SignInVCC", "viewDidLoad"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So13UIAlertActionC", "init"]
+- !private ["SC18UIAlertActionStyleO", "default"]
+- !private ["So17UIAlertControllerC", "addAction"]
+- !private ["So17UIAlertControllerC", "init"]
+- !private ["SC22UIAlertControllerStyleO", "alert"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "AuthProvider"]
+- !private ["So21UIAppearanceContainerP", "DRIVER_SEGUE"]
+- !private ["So21UIAppearanceContainerP", "UIAlertAction"]
+- !private ["So21UIAppearanceContainerP", "UIAlertController"]
+- !private ["So21UIAppearanceContainerP", "UberHandler"]
+- !private ["So21UIAppearanceContainerP", "addAction"]
+- !private ["So21UIAppearanceContainerP", "alerTheUser"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "emailTextField"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "passwordTextField"]
+- !private ["So21UIAppearanceContainerP", "performSegue"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "AuthProvider"]
+- !private ["So18UIContentContainerP", "DRIVER_SEGUE"]
+- !private ["So18UIContentContainerP", "UIAlertAction"]
+- !private ["So18UIContentContainerP", "UIAlertController"]
+- !private ["So18UIContentContainerP", "UberHandler"]
+- !private ["So18UIContentContainerP", "addAction"]
+- !private ["So18UIContentContainerP", "alerTheUser"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "emailTextField"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "passwordTextField"]
+- !private ["So18UIContentContainerP", "performSegue"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "AuthProvider"]
+- !private ["So18UIFocusEnvironmentP", "DRIVER_SEGUE"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertAction"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertController"]
+- !private ["So18UIFocusEnvironmentP", "UberHandler"]
+- !private ["So18UIFocusEnvironmentP", "addAction"]
+- !private ["So18UIFocusEnvironmentP", "alerTheUser"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "emailTextField"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "passwordTextField"]
+- !private ["So18UIFocusEnvironmentP", "performSegue"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "AuthProvider"]
+- !private ["So30UIPasteConfigurationSupportingP", "DRIVER_SEGUE"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UberHandler"]
+- !private ["So30UIPasteConfigurationSupportingP", "addAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "alerTheUser"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "emailTextField"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "passwordTextField"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "AuthProvider"]
+- ["So11UIResponderC", "DRIVER_SEGUE"]
+- ["So11UIResponderC", "EmailTouched"]
+- ["So11UIResponderC", "PasswordTouched"]
+- !private ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIAlertAction"]
+- !private ["So11UIResponderC", "UIAlertController"]
+- ["So11UIResponderC", "UITextField"]
+- !private ["So11UIResponderC", "UberHandler"]
+- !private ["So11UIResponderC", "addAction"]
+- ["So11UIResponderC", "alerTheUser"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "emailTextField"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "logIn"]
+- ["So11UIResponderC", "passwordTextField"]
+- !private ["So11UIResponderC", "performSegue"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "signUp"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "AuthProvider"]
+- !private ["So30UIResponderStandardEditActionsP", "DRIVER_SEGUE"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
+- !private ["So30UIResponderStandardEditActionsP", "UberHandler"]
+- !private ["So30UIResponderStandardEditActionsP", "addAction"]
+- !private ["So30UIResponderStandardEditActionsP", "alerTheUser"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "emailTextField"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "passwordTextField"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So16UIStateRestoringP", "AuthProvider"]
+- !private ["So16UIStateRestoringP", "DRIVER_SEGUE"]
+- !private ["So16UIStateRestoringP", "UIAlertAction"]
+- !private ["So16UIStateRestoringP", "UIAlertController"]
+- !private ["So16UIStateRestoringP", "UberHandler"]
+- !private ["So16UIStateRestoringP", "addAction"]
+- !private ["So16UIStateRestoringP", "alerTheUser"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "emailTextField"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "passwordTextField"]
+- !private ["So16UIStateRestoringP", "performSegue"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So18UITraitEnvironmentP", "AuthProvider"]
+- !private ["So18UITraitEnvironmentP", "DRIVER_SEGUE"]
+- !private ["So18UITraitEnvironmentP", "UIAlertAction"]
+- !private ["So18UITraitEnvironmentP", "UIAlertController"]
+- !private ["So18UITraitEnvironmentP", "UberHandler"]
+- !private ["So18UITraitEnvironmentP", "addAction"]
+- !private ["So18UITraitEnvironmentP", "alerTheUser"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "emailTextField"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "passwordTextField"]
+- !private ["So18UITraitEnvironmentP", "performSegue"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "AuthProvider"]
+- ["So16UIViewControllerC", "DRIVER_SEGUE"]
+- ["So16UIViewControllerC", "EmailTouched"]
+- ["So16UIViewControllerC", "PasswordTouched"]
+- !private ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIAlertAction"]
+- !private ["So16UIViewControllerC", "UIAlertController"]
+- ["So16UIViewControllerC", "UITextField"]
+- !private ["So16UIViewControllerC", "UberHandler"]
+- !private ["So16UIViewControllerC", "addAction"]
+- ["So16UIViewControllerC", "alerTheUser"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "emailTextField"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "logIn"]
+- ["So16UIViewControllerC", "passwordTextField"]
+- !private ["So16UIViewControllerC", "performSegue"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "signUp"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", ""]
+- !private ["11uber_driver11UberHandlerC", "Instance"]
+- !private ["11uber_driver11UberHandlerC", "driver"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AuthProvider"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DRIVER_SEGUE"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UberHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "alerTheUser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "emailTextField"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "passwordTextField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "11uber_driver12AuthProviderC"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "s8SequenceP"
+- "11uber_driver8SignInVCC"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So13UIAlertActionC"
+- !private "SC18UIAlertActionStyleO"
+- !private "So17UIAlertControllerC"
+- !private "SC22UIAlertControllerStyleO"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So10UIKeyInputP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "11uber_driver11UberHandlerC"
+- "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageSwiftNameSupport.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "331437ecad4e2027d6714b3806fc6e62"

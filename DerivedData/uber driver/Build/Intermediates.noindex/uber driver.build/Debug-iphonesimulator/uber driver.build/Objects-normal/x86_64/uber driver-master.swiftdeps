@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65.2 clang-900.0.37)"
+options: "a616e504b7099658482b8611a3ea3236"
+build_time: [1508592868, 347951000]
+inputs:
+  "/Users/kidnapper/Documents/uber_driver/uber driver/Plugins/Constants.swift": [1506246306, 0]
+  "/Users/kidnapper/Documents/uber_driver/uber driver/Plugins/AuthProvider.swift": [1506248213, 0]
+  "/Users/kidnapper/Documents/uber_driver/uber driver/Controller/SignInVC.swift": [1507400367, 0]
+  "/Users/kidnapper/Documents/uber_driver/uber driver/Controller/DriverVC.swift": [1507572368, 0]
+  "/Users/kidnapper/Documents/uber_driver/uber driver/Plugins/UberHandler.swift": [1507402323, 0]
+  "/Users/kidnapper/Documents/uber_driver/uber driver/Plugins/DBProvider.swift": [1506294144, 0]
+  "/Users/kidnapper/Documents/uber_driver/uber driver/AppDelegate.swift": [1506331572, 0]

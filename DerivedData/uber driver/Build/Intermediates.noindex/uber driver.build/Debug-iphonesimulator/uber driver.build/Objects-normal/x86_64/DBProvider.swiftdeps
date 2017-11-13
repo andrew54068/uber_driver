@@ -1,0 +1,191 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DBProvider"
+provides-nominal:
+- "11uber_driver10DBProviderC"
+provides-member:
+- ["11uber_driver10DBProviderC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "BooleanLiteralType"
+- !private "Constants"
+- "DBProvider"
+- !private "Database"
+- "DatabaseReference"
+- !private "Dictionary"
+- "String"
+depends-member:
+- !private ["s7CVarArgP", "child"]
+- !private ["s7CVarArgP", "database"]
+- !private ["s7CVarArgP", "reference"]
+- !private ["s7CVarArgP", "setValue"]
+- !private ["11uber_driver9ConstantsC", "DATA"]
+- !private ["11uber_driver9ConstantsC", "DRIVERS"]
+- !private ["11uber_driver9ConstantsC", "EMAIL"]
+- !private ["11uber_driver9ConstantsC", "ISRIDER"]
+- !private ["11uber_driver9ConstantsC", "PASSWORD"]
+- !private ["11uber_driver9ConstantsC", "UBER_ACCEPTED"]
+- !private ["11uber_driver9ConstantsC", "UBER_REQUEST"]
+- !private ["s28CustomDebugStringConvertibleP", "child"]
+- !private ["s28CustomDebugStringConvertibleP", "database"]
+- !private ["s28CustomDebugStringConvertibleP", "reference"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "child"]
+- !private ["s23CustomStringConvertibleP", "database"]
+- !private ["s23CustomStringConvertibleP", "reference"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["11uber_driver10DBProviderC", "Constants"]
+- ["11uber_driver10DBProviderC", "DBProvider"]
+- !private ["11uber_driver10DBProviderC", "Database"]
+- ["11uber_driver10DBProviderC", "DatabaseReference"]
+- !private ["11uber_driver10DBProviderC", "Dictionary"]
+- ["11uber_driver10DBProviderC", "Instance"]
+- ["11uber_driver10DBProviderC", "String"]
+- !private ["11uber_driver10DBProviderC", "_instance"]
+- ["11uber_driver10DBProviderC", "dbRef"]
+- ["11uber_driver10DBProviderC", "deinit"]
+- ["11uber_driver10DBProviderC", "driverRef"]
+- ["11uber_driver10DBProviderC", "init"]
+- ["11uber_driver10DBProviderC", "requestAcceptedRef"]
+- ["11uber_driver10DBProviderC", "requestRef"]
+- ["11uber_driver10DBProviderC", "saveUser"]
+- !private ["So8DatabaseC", "database"]
+- !private ["So8DatabaseC", "reference"]
+- !private ["So13DatabaseQueryC", "child"]
+- !private ["So13DatabaseQueryC", "setValue"]
+- !private ["So17DatabaseReferenceC", "child"]
+- !private ["So17DatabaseReferenceC", "setValue"]
+- !private ["s9EquatableP", "child"]
+- !private ["s9EquatableP", "database"]
+- !private ["s9EquatableP", "reference"]
+- !private ["s9EquatableP", "setValue"]
+- !private ["s8HashableP", "child"]
+- !private ["s8HashableP", "database"]
+- !private ["s8HashableP", "reference"]
+- !private ["s8HashableP", "setValue"]
+- !private ["So8NSObjectC", "child"]
+- !private ["So8NSObjectC", "database"]
+- !private ["So8NSObjectC", "reference"]
+- !private ["So8NSObjectC", "setValue"]
+- !private ["So16NSObjectProtocolP", "child"]
+- !private ["So16NSObjectProtocolP", "database"]
+- !private ["So16NSObjectProtocolP", "reference"]
+- !private ["So16NSObjectProtocolP", "setValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "child"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "database"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reference"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "11uber_driver9ConstantsC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- "11uber_driver10DBProviderC"
+- !private "So8DatabaseC"
+- !private "So13DatabaseQueryC"
+- !private "So17DatabaseReferenceC"
+- !private "s9EquatableP"
+- !private "s8HashableP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageSwiftNameSupport.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/kidnapper/Documents/uber_driver/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/kidnapper/Documents/uber_driver/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "dc4e3614a4efa3d7e2bcd08978d21e9a"
